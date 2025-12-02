@@ -12,28 +12,33 @@ This repository contains the full SQL implementation for an Online Bookstore dat
 
 ## 📂 Repository Structure
 ```
-online-bookstore-sql-solutions/
-├── **data/** # Holds all raw input data files
+online-bookstore-sql/
+│
+├── data/                       # Raw CSV files for database population
 │   ├── authors.csv
 │   ├── books.csv
-│   ├── categories.csv
 │   ├── customers.csv
+│   ├── orders.csv
 │   ├── order_items.csv
-│   └── orders.csv
-├── **schema/** # Holds all SQL scripts related to database setup
-│   ├── bookstore_schema.sql # CREATE TABLE statements
-│   └── constraints.sql # Constraints/Indexes
-├── **solutions/** # Holds all SQL solutions/queries for problems
+│   └── categories.csv
+│
+├── schema/                     # SQL scripts to create the database
+│   ├── bookstore_schema.sql
+│   └── constraints.sql
+│
+├── solutions/                  # Solutions for SQL problem sets
 │   ├── queries_1_5.sql
 │   ├── queries_6_10.sql
 │   └── queries_11_15.sql
-├── **utils/** # Holds optional helper scripts
-│   ├── import_script.sql
-│   └── sample_data_generator.sql
-├── **docs/** # Documentation files, kept at top level
-│   ├── project_overview.md
-│   └── README.md
-└── # (Any other top-level files like a LICENSE or .gitignore)
+│
+├── docs/                       # Documentation
+│   ├── README.md
+│   └── project_overview.md
+│
+└── utils/                      # Optional helper files
+    ├── import_script.sql
+    └── sample_data_generator.sql
+
 ```
 
 
