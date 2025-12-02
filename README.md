@@ -11,7 +11,7 @@ This repository contains the full SQL implementation for an Online Bookstore dat
 **Tool:** PgAdmin
 
 ## 📂 Repository Structure
-
+```
 online-bookstore-sql-solutions/
 ├── **data/** # Holds all raw input data files
 │   ├── authors.csv
@@ -34,7 +34,7 @@ online-bookstore-sql-solutions/
 │   ├── project_overview.md
 │   └── README.md
 └── # (Any other top-level files like a LICENSE or .gitignore)
-
+```
 
 
 
